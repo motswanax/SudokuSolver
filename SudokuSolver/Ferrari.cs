@@ -4,17 +4,10 @@ using System.Text;
 
 namespace SudokuSolver
 {
-    class Ferrari : ICar
+    class Ferrari : Car
     {
-        private bool on;
 
-        public void TurnOnOff()
-        {
-            on = !on;
-            Console.WriteLine(on ? "The Ferrari is on!" : "The Ferrari is off!");
-        }
-
-        public void Drive()
+        public override void Drive()
         {
             if (on)
             {

@@ -6,9 +6,9 @@ namespace SudokuSolver
 {
     class Person
     {
-        private ICar car;
+        private Car car;
 
-        public Person(ICar car)
+        public Person(Car car)
         {
             this.car = car;
         }
