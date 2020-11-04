@@ -4,25 +4,25 @@ using System.Text;
 
 namespace SudokuSolver
 {
-    class Car
+    class Ferrari : ICar
     {
         private bool on;
 
         public void TurnOnOff()
         {
             on = !on;
-            Console.WriteLine(on ? "The car is on!" : "The car is off!");
+            Console.WriteLine(on ? "The Ferrari is on!" : "The Ferrari is off!");
         }
 
         public void Drive()
         {
             if (on)
             {
-                Console.WriteLine("Drive car");
+                Console.WriteLine("Drive Ferrari");
             }
             else
             {
-                Console.WriteLine("Have to start car first!");
+                Console.WriteLine("Have to start Ferrari first!");
             }
         }
     }
