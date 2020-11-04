@@ -7,11 +7,11 @@ namespace SudokuSolver
     {
         static void Main(string[] args)
         {
-            StringBuilder myString = new StringBuilder();
-            myString.Append("Some text. ");
-            myString.Append("Some more text. ");
+            int[][] jagged = new int[10][];
+            jagged[0] = new int[90];
+            jagged[1] = new int[80];
 
-            Console.WriteLine(myString.ToString());
+            int[,] matrix = new int[10, 10];
         }
     }
 }
