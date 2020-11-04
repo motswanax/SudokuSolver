@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace SudokuSolver
 {
@@ -6,7 +7,11 @@ namespace SudokuSolver
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            StringBuilder myString = new StringBuilder();
+            myString.Append("Some text. ");
+            myString.Append("Some more text. ");
+
+            Console.WriteLine(myString.ToString());
         }
     }
 }
